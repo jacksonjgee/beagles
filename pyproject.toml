@@ -1,0 +1,17 @@
+[project]
+name = "beagles"
+version = "0.1.0"
+description = "An educational pandas-inspired data analysis library built from scratch in Python."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Jackson Gee" }
+]
+license = { text = "MIT" }
+
+[project.urls]
+Repository = "https://github.com/jacksonjgee/beagles"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
